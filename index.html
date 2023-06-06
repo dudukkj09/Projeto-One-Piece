@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./src/imagem/pngegg.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;300;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <title>One Piece-Trailer</title>
+</head>
+
+<body>
+    <div class="fundo-video">
+        <video class="video" autoplay muted loop>
+            <source src="./src/video/One Piece.mp4" type="video/mp4" />
+        </video>
+    </div>
+
+
+    <header class="cabecalho">
+        <a>
+            <img class="logo" src="./src/imagem/pngegg.png">
+        </a>
+        <nav>
+
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="informacoes">
+            <img class="onepiece" src="./src/imagem/22969-5-one-piece-logo-photos.png" alt="imagem do Título do anime">
+            <p class="descricao">One Piece é um anime que conta a história do jovem Monkey D. Luffy, que ganhou poderes
+                de borracha depois de comer uma fruta do diabo. O enredo mostra as aventuras de Luffy e seu grupo, Os
+                Piratas de Chapéu de Palha, em busca do One Piece, o tesouro mais procurado do mundo.Esse tesouro havia
+                pertencido a Gold Roger, o lendário Rei dos Piratas. Ele foi capturado, condenado à execução pelo
+                Governo Mundial e suas últimas palavras lançaram legiões aos mares."Meu tesouro? Se quiserem, podem
+                pegá-lo. Procurem-no! Ele contém tudo que este mundo pode oferecer!".Porém, diferentemente de outros
+                caçadores de tesouro, Luffy possui motivações simples: se aventurar e conhecer novos amigos. Para viver
+                essas experiências, ele e os amigos partem em direção à Grand Line, a mais perigosa das rotas do mundo.
+            </p>
+            <button class="botao-trailer">Veja o Trailer!</button>
+        </div>
+        <img class="tripulacao" src="./src/imagem/pngwing.com.png" />
+
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/-TaTDRq3WZ0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
